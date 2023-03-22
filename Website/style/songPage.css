@@ -1,0 +1,55 @@
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+}
+
+/* .SongDetails{
+    display: flex;
+    justify-content: center;
+} */
+h2 {
+  margin: 2% 0% 0% 0%;
+  font-size: 170%;
+  font-weight: bold;
+}
+h5 {
+  margin: 1% 0% 2% 0%;
+  /* font-size: 150%; */
+  font-weight: bold;
+}
+@media (width<1200px) {
+  h2 {
+    margin: 2% 0% 0% 0%;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  h5 {
+    margin: 1% 0% 5% 0%;
+    /* font-size: 150%; */
+    font-weight: bold;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+  }
+}
+.col-md-5 form input {
+  max-width: 85%;
+}
+
+.col-md-5 form button {
+  max-width: 85%;
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}

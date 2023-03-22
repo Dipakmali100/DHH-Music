@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.poster img{
+    max-width: 100%;
+}
+
+@media (min-width: 1400px) {
+    .poster img {
+        min-width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.card {
+  transition: all 0.2s ease-in-out; /* Add a transition effect to the card */
+  box-shadow: none; /* Remove any existing box shadow */
+}
+
+.card:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9); /* Add a black cross shadow effect on hover */
+  background-color: #000000; /* Change the background color to black */
+}
+
+.card-body h5{
+    font-weight: bold;
+}
+
+.card-body p{
+    font-size: 90%;
+}
+
+@media (max-width: 1000px) {
+    .card-body h5{
+        font-size: medium;
+        font-weight: bold;
+    }
+    .card-body p{
+        font-size: 80%;
+    }
+}
+
+@media (width<760px) {
+    .card {
+        box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9); 
+    }
+}
+
+@media (width>1200px) {
+    .row-cols-md-3 {
+        /* Add any styles that you want to override */
+        display:none;
+    }
+  }
+
+@media (width<=1200px) {
+    .row-cols-md-6 {
+        /* Add any styles that you want to override */
+        display:none;
+    }
+  }
+
+.col-md-5 form input{
+    max-width: 85%;
+}
+
+.col-md-5 form button{
+    max-width: 85%;
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+  }

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik:wght@500&display=swap");
+body {
+  background-color: #8be8ff;
+}
+hr {
+    width: 98%;
+    border: 1px solid #000;
+}
+.container {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.content {
+  margin-top: 40px;
+}
+@media (width<=768px) {
+  .container {
+    width: 100%;
+  }
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}

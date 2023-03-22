@@ -1,0 +1,60 @@
+.container{
+    margin: 1% auto 1% auto;
+    /* border: 1px solid #000000; */
+    /* background-color: #00eeff; */
+    width: 40%;
+    height: 51vh;
+    border-radius: 10px;
+
+}
+.first_name{
+    margin: 3% 1% 1% 0;
+    padding-left: 2%;
+    width: 49%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.last_name{
+    padding-left: 2%;
+    margin: 2% 0 1% 0;
+    width: 49%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.email_address{
+    padding-left: 2%;
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.message{
+    padding-left: 2%;
+    margin: 2% 0 2% 0;
+    padding-bottom: 16%;
+    width: 100%;
+    height: 20vh;
+    border-radius: 5px;
+}
+.foRow{
+    margin: 1% 0 1% 0;
+    width: 100%;
+    text-align: center;
+}
+@media (width<= 768px){
+    .first_name{
+        width: 100%;
+    }
+    .last_name{
+        width: 100%;
+    }
+    .container{
+        margin: 1% auto 1% auto;
+        width: 100%;
+        height: 56vh;
+        border-radius: 10px;
+    }
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+  }

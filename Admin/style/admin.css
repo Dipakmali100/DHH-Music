@@ -1,0 +1,107 @@
+/* admin login */
+.container1{
+    margin: 1% auto 1% auto;
+    padding: 1% 1%;
+    width: 40%;
+    height: 29vh;
+    border-radius: 10px;
+}
+.saRow input{
+    padding-left: 2%;
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.taRow input{
+    padding-left: 2%;
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+/* admin page */
+.container2{
+    margin: 1% auto 1% auto;
+    padding: 1% 1%;
+    width: 25%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.button1 button{
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.button2 button{
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+.button3 button{
+    margin: 2% 0 1% 0;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+/* admin upload song */
+.container3{
+    margin: 1% auto 1% auto;
+    padding: 1% 1%;
+    width: 40%;
+    /* height: 29vh; */
+    border-radius: 10px;
+}
+.Row input{
+    margin: 2% 0 1% 0;
+    padding-left: 2%;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+/* admin apload album */
+.container4{
+    margin: 1% auto 1% auto;
+    padding: 1% 1%;
+    width: 40%;
+    /* height: 29vh; */
+    border-radius: 10px;
+}
+@media (width<= 768px){
+    .container1{
+        margin: 1% auto 1% auto;
+        padding: 1% 1%;
+        width: 100%;
+        height: 25vh;
+        border-radius: 10px;
+    }
+    .container2{
+        margin: 1% auto 1% auto;
+        padding: 3% 3%;
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+    }
+    .container3{
+        margin: 1% auto 1% auto;
+        padding: 1% 1%;
+        width: 100%;
+        /* height: 29vh; */
+        border-radius: 10px;
+    }
+    .Row input{
+        margin: 2% 1% 1% 1%;
+        padding-left: 2%;
+        width: 98%;
+        height: 7vh;
+        border-radius: 5px;
+    }
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+  }
