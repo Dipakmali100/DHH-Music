@@ -111,7 +111,7 @@ if (isset($_POST['esubmit'])) {
         <div class="Ctitle fw-bold text-black">Trending Songs</div>
       </li>
       <?php
-      $sql = "SELECT * FROM allsongs ORDER BY listeners DESC";
+      $sql = "SELECT * FROM allsongs ORDER BY listeners DESC LIMIT 15";
       $result = mysqli_query($con, $sql);
 
       //Display data
