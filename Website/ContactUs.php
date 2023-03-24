@@ -102,14 +102,14 @@ if(isset($_POST['csubmit'])){
     <div class="container bg-dark">
       <form method="post">
         <div class="fRow">
-          <input type="text" name="first_name" placeholder="First Name" class="first_name">
-          <input type="text" name="last_name" placeholder="Last Name" class="last_name">
+          <input type="text" name="first_name" placeholder="First Name" class="first_name" required>
+          <input type="text" name="last_name" placeholder="Last Name" class="last_name" required>
         </div>
         <div class="sRow">
-          <input type="email" name="email_address" placeholder="Email Address" class="email_address">
+          <input type="email" name="email_address" placeholder="Email Address" class="email_address" required>
         </div>
         <div class="tRow">
-          <input type="text" name="message" placeholder="Enter Your Message (200 Characters)" class="message">
+          <input type="text" name="message" placeholder="Enter Your Message (200 Characters)" class="message" required>
         </div>
         <div class="foRow">
           <input type="submit" name="csubmit" value="Submit" class="btn btn-outline-light" class="csubmit">
