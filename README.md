@@ -1,7 +1,7 @@
 # DHH MUSIC
 ### Desi Hip-Hop Music Streaming and Downloading Website
 
-- Official Site Of DHH MUSIC 👉 [http://dhhmusic.000webhostapp.com/](http://dhhmusic.000webhostapp.com/)
+- Official Site Of DHH MUSIC 👉 [https://dhhmusicc.000webhostapp.com/](https://dhhmusicc.000webhostapp.com/)
 - Destination for the latest Desi Hip-Hop music in immersive 8D + Reverb, 8D + Bass Boosted, and Slowed + Reverb versions. I strive to provide our listeners with an unparalleled listening experience that transports them into the heart of the music they love.
 - At DHH MUSIC, I understand that music is more than just a collection of sounds; it's an expression of emotion, culture, and identity. My passion for music fuels I commitment to delivering the best quality audio for our listeners. I am dedicated to producing top-notch content that exceeds your expectations.
 - In addition to my website, I also have a YouTube channel under the name [Dipak Creator](https://www.youtube.com/@DipakCreator)
